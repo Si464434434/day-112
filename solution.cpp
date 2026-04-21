@@ -19,7 +19,6 @@ private:
             to += temp;
             from -= temp;
             step++;
-            if (from == d || to == d) break;
             if (from == 0) { from = fromCap; step++; }
             if (to == toCap) { to = 0; step++; }
         }
